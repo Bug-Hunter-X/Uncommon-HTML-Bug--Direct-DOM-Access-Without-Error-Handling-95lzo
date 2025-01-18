@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Incorrect way to access an element
+    // This will cause an error if the element doesn't exist
+    myDiv.innerHTML = "Modified text";
+  </script>
+</body>
+</html>
